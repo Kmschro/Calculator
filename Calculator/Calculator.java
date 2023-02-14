@@ -31,7 +31,32 @@ public class Calculator {
 			num2 = scan.nextInt();
 			sum2 = (num1 +num2 ) *1.0;
 			System.out.println(sum);
+		}else if (numOperator == "Multiplication" || numOperator == "multiplication" || numOperator == "Multiply" || numOperator == "multiply")
+		{
+			System.out.println("Enter two numbers:");
+			num1 = scan.nextInt();
+			num2 = scan.nextInt();
+			
+			sum2 = (num1 *num2 ) *1.0;
+			System.out.println(sum);
 		}
+		else if (numOperator == "Division" || numOperator == "division" || numOperator == "Divide" || numOperator == "divide")
+		{
+			System.out.println("Enter two numbers:");
+			num1 = scan.nextInt();
+			num2 = scan.nextInt();
+			
+			sum2 = (num1 / num2 ) *1.0;
+			System.out.println(sum);
+		}
+		else 
+		{
+			System.out.println("Error try again");
+		}
+	}
+
 }
+
+
 
 	
