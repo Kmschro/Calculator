@@ -36,7 +36,9 @@ public class Calculator {
 			System.out.println("Enter two numbers:");
 			num1 = scan.nextInt();
 			num2 = scan.nextInt();
-			
+			if (num1 == 0 || num2 == 0) {
+				System.out.println("Can't multiply by 0");
+			}
 			sum2 = (num1 *num2 ) *1.0;
 			System.out.println(sum);
 		}
@@ -45,7 +47,9 @@ public class Calculator {
 			System.out.println("Enter two numbers:");
 			num1 = scan.nextInt();
 			num2 = scan.nextInt();
-			
+			if (num1 == 0 || num2 == 0) {
+				System.out.println("Can't divide by 0");
+			}
 			sum2 = (num1 / num2 ) *1.0;
 			System.out.println(sum);
 		}
